@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmartPark | Parking</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark" id="nav" style="height: 7vh;">
+    <div class="container-fluid">
+      <a class="navbar-brand mb-2" href="/">SmartPark</a>
+      <form class="d-flex" role="search">
+        <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="park.html">Parking</a>
+          </li>
+        </ul>
+        <a class="btn btn-dark" href="login.html" style="height: 40px;">Login</a>
+        <a class="btn btn-warning" id="marginR-10px" style="background-color: #FFBD53; height: 40px;"
+          href="register.html">Register</a>
+      </form>
+    </div>
+  </nav>
+  <div id="mainContainer" id="height-86vh">
+    <div class="card" id="barList" style="width: 25%;">
+      <div class="card-body">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Lot A</h5>
+        <p class="card-text">★★★☆☆ (3)<br>Availability: 11 Spots<br>About: Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit,
+          sed do eiusmod tempor incididunt.</p>
+        <a href="pay.html" class="btn" id="payButton">Book</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Lot B</h5>
+        <p class="card-text">★★★★☆ (4)<br>Availability: 7 Spots<br>Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do
+          eiusmod tempor incididunt.</p>
+        <a href="pay.html" class="btn" id="payButton">Book</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Lot C</h5>
+        <p class="card-text">★★★★★ (5)<br>Availability: 23 Spots<br>Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do
+          eiusmod tempor incididunt.</p>
+        <a href="pay.html" class="btn" id="payButton">Book</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Lot D</h5>
+        <p class="card-text">★★☆☆☆ (2)<br>Availability: 18 Spots<br>Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do
+          eiusmod tempor incididunt.</p>
+        <a href="pay.html" class="btn" id="payButton">Book</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Lot E</h5>
+        <p class="card-text">★☆☆☆☆ (1)<br>Availability: 4 Spots<br>Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do
+          eiusmod tempor incididunt.</p>
+        <a href="pay.html" class="btn" id="payButton">Book</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Lot F</h5>
+        <p class="card-text">★★★☆☆Availability: 1 Spots<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do
+          eiusmod tempor incididunt.</p>
+        <a href="pay.html" class="btn" id="payButton">Book</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Lot G</h5>
+        <p class="card-text">★★☆☆☆Availability: 3 Spots<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do
+          eiusmod tempor incididunt.</p>
+        <a href="pay.html" class="btn" id="payButton">Book</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Lot H</h5>
+        <p class="card-text">★★★★☆Availability: 26 Spots<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do
+          eiusmod tempor incididunt.</p>
+        <a href="pay.html" class="btn" id="payButton">Book</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Lot I</h5>
+        <p class="card-text">★★★★★Availability: 33 Spots<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do
+          eiusmod tempor incididunt.</p>
+        <a href="pay.html" class="btn" id="payButton">Book</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Lot J</h5>
+        <p class="card-text">★★☆☆☆Availability: 11 Spots<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do
+          eiusmod tempor incididunt.</p>
+        <a href="pay.html" class="btn" id="payButton">Book</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Lot K</h5>
+        <p class="card-text">★★★★☆Availability: 9 Spots<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do
+          eiusmod tempor incididunt.</p>
+        <a href="pay.html" class="btn" id="payButton">Book</a>
+      </div>
+    </div>
+    <iframe id="map"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2528.694986713284!2d-120.36218823191841!3d50.66992347122875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537e2c5f6dfafbc9%3A0x3846e9bcdc14f9e!2sBritish%20Columbia%20Veterinary%20Technologists%20Association!5e0!3m2!1sen!2sca!4v1695501134623!5m2!1sen!2sca"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <footer class="navbar navbar-dark bg-dark" id="nav" style="height: 6vh;">
+    <div class="container-fluid">
+      <h4 class="navbar-brand fs-6 fw-lighter"> © 2023 Company, Inc.
+      </h4>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
